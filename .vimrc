@@ -7,3 +7,6 @@ call pathogen#infect('/home/vagrant/.vim/bundle/{}')
 " End of vimrc-install additions.
 source $VIMRUNTIME/vimrc_example.vim
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
+set backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp
