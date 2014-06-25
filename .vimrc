@@ -10,3 +10,4 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 set backup
 set backupdir=~/.vim/backup
 set directory=~/.vim/tmp
+colorscheme vibrantink
